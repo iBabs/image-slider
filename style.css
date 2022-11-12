@@ -8,11 +8,13 @@ body{
     justify-content: center;
     padding: 5rem;
     height: 100vh;
+    width: max-content;
 }
 
 img{
-    height: 400px;
-    object-fit: cover;
+    height: 100%;
+    width:100%;
+    object-fit: contain;
     object-position: center;
 }
 .carrusel{
